@@ -6,6 +6,7 @@ class Album(models.Model):
     album_title = models.CharField(max_length = 300)
     genre = models.CharField(max_length = 100)
     album_logo = models.FileField()
+    is_favourite = models.BooleanField(default = False)
 
     def get_absolute_url(self):
         
