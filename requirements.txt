@@ -72,7 +72,6 @@ python-socketio==4.5.1
 python3-openid==3.1.0
 pytz==2018.5
 pywebpush==1.6.0
-pywin32==227
 PyYAML==5.3.1
 ratelim==0.1.6
 rauth==0.7.3
